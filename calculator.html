@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-bottom: 50px;
+            color: teal;
+        }
+        #main{
+            width: 25%;
+            padding: 10px 0px 10px 0px;
+          margin: auto; 
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        #display{
+            width: 80%;
+            
+            height: 50px;
+            margin: auto;
+            margin-top: 40PX;
+            margin-bottom: 19px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+        }
+        #keyboard{
+            width: 80%;
+            margin: auto;
+    
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(4,50px);
+       gap: 15px;
+       margin-bottom: 40px;
+        }
+        #keyboard>div{
+            
+            display: grid;
+           justify-content: center;
+           align-items: center; 
+           border-radius: 10px;
+           font-size: 19px;
+           font-weight: bold;  
+           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;s         
+        }
+        .black{
+            background-color: black;
+            color: white;
+        }
+      .red{
+          background-color: red;
+          color: white;
+      }
+    </style>
+</head>
+<h1>MASAI CALCULATOR</h1>
+<body>
+    <div id="main">
+        <div id="display"></div>
+        <div id="keyboard">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div class="black">+</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div class="black">-</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div class="black">x</div>
+            <div class="red">C</div>
+            <div>0</div>
+            <div class="black">=</div>
+            <div class="black">/</div>
+        </div>
+    </div>
+</body>
+</html>
